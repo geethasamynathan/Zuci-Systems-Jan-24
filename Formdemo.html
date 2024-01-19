@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Demo</title>
+    </head>
+    <body>
+        <form>
+            <pre>
+                <fieldset>
+                    <legend>Registration From</legend>
+            <label for="Name">FisrtName</label>
+            <input type="text" id="Name" minlength="3" maxlength="12" placeholder="Enter the Name" required><br/>
+            <label for="email">Email</label>
+            <input type="email" id="email"><br/>
+            <label>Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female<br/>
+            <label>Age</label>
+            <input type="number" min="18" max="68">
+            <label>Select the state</label>
+            <select>
+                <optgroup>South
+                <option>TamilNadu</option>
+                <option>Telangana</option>
+                <option>AndraPradesh</option>
+                <option>Kerala</option>
+            </optgroup>            
+                <option>Assam</option>
+                <option>Maharastra</option>
+                <option>Gujarat</option>
+                <option>Delhi</option>
+                <option>Mehalaya</option>
+            </select>
+
+            <label>Address</label>
+            <textarea cols="25" rows="4"></textarea>
+
+            <label>choose the file to upload</label>
+            <input type="file" id="Doc1">
+
+            <label>Enter the Range you need a product</label>
+            <input type="range" min="2000" max="45000">
+            <label>DOB</label>
+            <input type="date">
+            <label>Choose your favourite Flavour</label>
+            <input type="text" list="flavours">
+            <datalist id="flavours">
+                <option value="Chocolate"></option>
+                <option value="Coconut"></option>
+                <option value="Mint"></option>
+                <option value="Strawberry"></option>
+                <option value="Vanilla"></option>
+            </datalist>
+        </fieldset>
+            <button type="submit">Submit</button>
+            </pre>
+            </form>
+
+    </body>
+</html>
